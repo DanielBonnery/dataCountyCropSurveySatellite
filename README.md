@@ -1,6 +1,3 @@
----
-output: pdf_document
----
 #Data from Battese, Harter, Fuller.
 
 
