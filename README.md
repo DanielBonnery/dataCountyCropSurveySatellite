@@ -21,3 +21,9 @@ print(plot1)
 ```
 
 ![plot of chunk kable2](figure/kable2-1.png)
+
+```r
+print(plot2)
+```
+
+![plot of chunk kable2](figure/kable2-2.png)
