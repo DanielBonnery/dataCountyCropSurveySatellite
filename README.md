@@ -12,6 +12,3 @@ demo(plots)
 ```
 
 ##Output
-
-
-![plot of chunk kable2](figure/kable2-1.png)
