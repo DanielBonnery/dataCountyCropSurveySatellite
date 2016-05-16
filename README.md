@@ -25,16 +25,25 @@ devtools::install_github("DanielBonnery/dataCountyCropSurveySatellite")
 ## > data(crop,package="dataCountyCropSurveySatellite")
 ## 
 ## > attach(crop)
+```
+
+```
+## The following objects are masked from crop (pos = 3):
+## 
+##     county, countyn, crnmean, crnpxel, crnsrvy, soymean, soypxel,
+##     soysrvy
+```
+
+```
+## The following objects are masked from crop (pos = 6):
+## 
+##     county, countyn, crnmean, crnpxel, crnsrvy, soymean, soypxel,
+##     soysrvy
+```
+
+```
 ## 
 ## > library(ggplot2)
-```
-
-```
-## Find out what's changed in ggplot2 at
-## http://github.com/hadley/ggplot2/releases.
-```
-
-```
 ## 
 ## > plot1<-ggplot(data = crop,aes(x=crnpxel,y=crnsrvy,group=county,color=county,linetype=county))+geom_line()+geom_point()+xlab("Pixels")+ylab("Hectares")
 ## 
