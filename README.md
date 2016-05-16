@@ -18,25 +18,7 @@ devtools::install_github("DanielBonnery/dataCountyCropSurveySatellite")
 
 ```r
 library(dataCountyCropSurveySatellite)
-demo(plots,package="dataCountyCropSurveySatellite")
-```
-
-```
-FALSE 
-FALSE 
-FALSE 	demo(plots)
-FALSE 	---- ~~~~~
-FALSE 
-FALSE > data(crop,package="dataCountyCropSurveySatellite")
-FALSE 
-FALSE > library(ggplot2)
-FALSE 
-FALSE > plot1<-ggplot(data = crop,aes(x=crnpxel,y=crnsrvy,group=county,color=county,linetype=county))+geom_line()+geom_point()+xlab("Pixels")+ylab("Hectares")
-FALSE 
-FALSE > plot2<-ggplot(data = crop,aes(x=soypxel,y=soysrvy,group=county,color=county,linetype=county))+geom_line()+geom_point()+xlab("Pixels")+ylab("Hectares")
-```
-
-```r
+demo(plots,package="dataCountyCropSurveySatellite",echo=FALSE)
 print(plot1)
 ```
 
