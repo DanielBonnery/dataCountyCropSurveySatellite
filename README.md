@@ -15,7 +15,6 @@ devtools::install_github("DanielBonnery/dataCountyCropSurveySatellite")
 
 
 ```r
-library(dataCountyCropSurveySatellite)
 demo(plots,package="dataCountyCropSurveySatellite",echo=FALSE)
 print(plot1)
 ```
