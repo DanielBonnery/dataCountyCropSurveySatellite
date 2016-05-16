@@ -16,3 +16,29 @@ devtools::install_github("DanielBonnery/dataCountyCropSurveySatellite")
 
 
 
+```
+## 
+## 
+## 	demo(plots)
+## 	---- ~~~~~
+## 
+## > data(crop,package="dataCountyCropSurveySatellite")
+## 
+## > attach(crop)
+## 
+## > library(ggplot2)
+```
+
+```
+## Find out what's changed in ggplot2 at
+## http://github.com/hadley/ggplot2/releases.
+```
+
+```
+## 
+## > plot1<-ggplot(data = crop,aes(x=crnpxel,y=crnsrvy,group=county,color=county,linetype=county))+geom_line()+geom_point()+xlab("Pixels")+ylab("Hectares")
+## 
+## > plot2<-ggplot(data = crop,aes(x=soypxel,y=soysrvy,group=county,color=county,linetype=county))+geom_line()+geom_point()+xlab("Pixels")+ylab("Hectares")
+```
+
+![plot of chunk kable2](figure/kable2-1.png)
