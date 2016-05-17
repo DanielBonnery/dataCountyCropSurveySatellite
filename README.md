@@ -14,15 +14,3 @@ devtools::install_github("DanielBonnery/dataCountyCropSurveySatellite")
 
 
 
-```r
-demo(plots,package="dataCountyCropSurveySatellite",echo=FALSE)
-print(plot1)
-```
-
-![plot of chunk kable2](figure/kable2-1.png)
-
-```r
-print(plot2)
-```
-
-![plot of chunk kable2](figure/kable2-2.png)
