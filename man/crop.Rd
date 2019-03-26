@@ -1,8 +1,8 @@
 \name{crop}
 \docType{data}
-\title{Data from Battese Harter Fuller. "An error-components model for prediction of county crop areas using survey and satellite data."}
+\title{Data from "Battese, George E., Rachel M. Harter, and Wayne A. Fuller. "An error-components model for prediction of county crop areas using survey and satellite data." Journal of the American Statistical Association 83.401 (1988): 28-36."}
 \description{
-  Data from Battese, George E., Rachel M. Harter, and Wayne A. Fuller. "An error-components model for prediction of county crop areas using survey and satellite data." Journal of the American Statistical Association 83.401 (1988): 28-36.
+  Data from "Battese, George E., Rachel M. Harter, and Wayne A. Fuller. "An error-components model for prediction of county crop areas using survey and satellite data." Journal of the American Statistical Association 83.401 (1988): 28-36."
 }
 \usage{data(crop)}
 \format{
@@ -28,3 +28,4 @@
   data(crop)
 }
 \keyword{datasets}
+  
